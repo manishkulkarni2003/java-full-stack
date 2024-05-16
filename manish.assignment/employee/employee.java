@@ -5,14 +5,14 @@ public class Employee {
     private String employeeId;
     private double salary;
 
-    // Constructor
+   
     public Employee(String name, String employeeId, double salary) {
         this.name = name;
         this.employeeId = employeeId;
         this.salary = salary;
     }
 
-    // Getter methods
+   
     public String getName() {
         return name;
     }
@@ -42,13 +42,13 @@ public class Employee {
 public class Manager extends Employee {
     private String department;
 
-    // Constructor
+  
     public Manager(String name, String employeeId, double salary, String department) {
         super(name, employeeId, salary);
         this.department = department;
     }
 
-    // Getter and setter for department
+    
     public String getDepartment() {
         return department;
     }
@@ -60,13 +60,13 @@ public class Manager extends Employee {
 public class Developer extends Employee {
     private String programmingLanguage;
 
-    // Constructor
+  
     public Developer(String name, String employeeId, double salary, String programmingLanguage) {
         super(name, employeeId, salary);
         this.programmingLanguage = programmingLanguage;
     }
 
-    // Getter and setter for programmingLanguage
+   
     public String getProgrammingLanguage() {
         return programmingLanguage;
     }
